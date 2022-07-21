@@ -9606,7 +9606,7 @@ __nccwpck_require__.r(__webpack_exports__);
 
 async function run() {
   try {
-    const target = _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.payload.pull_request || _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.payload.issues
+    const target = _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.payload.pull_request || _actions_github__WEBPACK_IMPORTED_MODULE_1__.context.payload.issue
     if (target === undefined) {
       throw new Error("Can't get payload. Check you trigger event");
     }
