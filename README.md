@@ -25,6 +25,7 @@ on:
     types: [ opened, reopened ]
 
 permissions:
+  issues: write
   pull-requests: write
 
 jobs:
